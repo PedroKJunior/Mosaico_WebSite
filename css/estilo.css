@@ -1,0 +1,121 @@
+.logo{
+	margin-top: -150px;
+}
+
+.text-white, .mosaico{
+	font-family: 'Bitter', serif;
+}
+
+.text-white, .text-white:hover{
+	color: #fff;
+	font-size:35px;
+}
+.brand{
+	margin-top:5px;
+	color:white;
+	display: block;
+  	float: left;
+  	position: relative;
+}
+
+.brand_name {
+  display: block;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.brand-inline {
+  display: table;
+}
+.brand-inline:after {
+  content: "";
+  display: table-cell;
+  width: 3px;
+}
+.brand-inline .brand_logo,
+.brand-inline .brand_name {
+  display: table-cell;
+  vertical-align: middle;
+}
+.brand-inline .brand_logo {
+  padding-right: 10px;
+}
+.brand-inline .brand_name {
+  margin: 0;
+  text-align: left;
+}
+.navbar_column-s {
+  width: 20%;
+}
+
+.navbar-right li.active a,.navbar-right li.active:hover a{
+  background-color: #282828;
+  cursor: default;
+}
+
+.navbar-right li:hover a {
+background: #FF4727; 
+}
+
+.caption .btn-start:hover{
+	background-color:#028fcc; 
+}
+
+.navbar-fixed-top{
+	padding-left: -2px;
+}
+
+.fa-book {
+  font-size: 24px;
+  height: 64px;
+  width: 64px;
+  line-height: 65px;
+  border-radius: 50%; 
+  position: relative;
+  background: linear-gradient(to top, #028fcc 0%,#7db9e8 92%)
+}
+
+.fa-book:after {
+  position: absolute;
+  content: "";
+  border-width: 8px;
+  border-style: solid;
+  left: 24px;
+  bottom: -14px;
+  border-color: #028fcc transparent transparent;
+}
+
+.fa-facebook-square{
+	font-size: 24px;
+	color:#29487d;
+}
+
+.fa-folder{
+	color:#ffcc56;
+}
+
+#footer{
+	margin-top: -100px;
+}
+
+.white-tooltip + .tooltip > .tooltip-inner {background-color: #fff;}
+.white-tooltip + .tooltip > .tooltip-inner {color: #000;}
+
+
+#home-slider .caption h1 span{
+  color: #FF4727;
+  
+}
+
+#twitter-carousel{
+	height: 100px;
+}
+
+section#twitter{
+	padding: 0px;
+}
+.color{
+	background-color: rgba(0,0,0,0.75);
+	padding:90px;
+}
